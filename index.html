@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    body {
+        margin: 20px;
+        padding: 10px;
+    }
+</style>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WeatherPy</title>
 </head>
-<body bgcolor="lightblue">
+<nav>
+    <span>
+        <h1>WeatherPy Project</h1>
+        <a href="http://jeffreyburgos.com">Jeffrey Burgos, Data Analyst</a>
+    </span>
     
-    <nav>
-    <h1>WeatherPy Project</h1> 
-    <a href="http://jeffreyburgos.com">Jeffrey Burgos, Data Analyst</a>
-    </nav>
+</nav>
+
+<body bgcolor="lightblue">
+    <br>
     <img src="Images/latvscloudiness.png" alt="latitude vs cloudiness">
     <section>
         <article>
             <p>
-            As I looked through the data, I found a few interesting observations. 
-            The first observation that I made was that when comparing the latitude to the max temperature, 
-            as the latitude increased from a negative number to zero, the max temperature went up,
-            and when the number increased from 0 to a higher positive number, the max temperature began to decrease.
-            This isn't unusual by any means. However, the decrease in temperature from 20 degrees to 60 degrees latitude 
-            is much steeper than the decrease from negative 20 to negative 60. If we look at the minumum values from 
-            negative 20 degrees latitude and positive 20 degrees latitude, which are both about 60 degrees, 
-            the negative 20 degrees latitude to negative 60 only drops by about 20 degrees. On the other hand, 
-            looking from positive 20 to positive 60, the temperature drops as much as 80 degrees, which is a 
-            massive difference. Granted, I'm not sure how the weather works, but one would expect that if two 
-            pieces of land are equidistant from the equator, they would be similar in temperature. 
-            As we see in the data though, this does not appear to be the case. I suppose that this is due 
-            to other factors such as longitude and altitude, and would need to be looked into further.
+                As I looked through the data, I found a few interesting observations.
+                The first observation that I made was that when comparing the latitude to the max temperature,
+                as the latitude increased from a negative number to zero, the max temperature went up,
+                and when the number increased from 0 to a higher positive number, the max temperature began to decrease.
+                This isn't unusual by any means. However, the decrease in temperature from 20 degrees to 60 degrees
+                latitude
+                is much steeper than the decrease from negative 20 to negative 60. If we look at the minumum values from
+                negative 20 degrees latitude and positive 20 degrees latitude, which are both about 60 degrees,
+                the negative 20 degrees latitude to negative 60 only drops by about 20 degrees. On the other hand,
+                looking from positive 20 to positive 60, the temperature drops as much as 80 degrees, which is a
+                massive difference. Granted, I'm not sure how the weather works, but one would expect that if two
+                pieces of land are equidistant from the equator, they would be similar in temperature.
+                As we see in the data though, this does not appear to be the case. I suppose that this is due
+                to other factors such as longitude and altitude, and would need to be looked into further.
             </p>
             <br>
             <img src="Images/latvshumidity.png" alt="latitude vs humidity">
             <p>
-                The second observation that I made while looking through this data is for some reason, 
-                on both ends of the spectrum the humidity remains mostly the same. 
+                The second observation that I made while looking through this data is for some reason,
+                on both ends of the spectrum the humidity remains mostly the same.
                 However, when you look at between 20 and 40 degrees latitude, whether positive or negative,
                 there is a significant drop in humidity and then rises back to similar numbers as the ends
                 of the spectrum when the latitude is closer to Zero. I'm not sure why in that particular area
                 it is like that as well, and it would probably involve only certain areas that would need to be
-                looked into further as well and would also be determined by other factors such as longitude and altitude.
+                looked into further as well and would also be determined by other factors such as longitude and
+                altitude.
             </p>
             <br>
             <img src="Images/latvstemp.png" alt="latitude vs temperature">
@@ -56,4 +69,5 @@
 
 
 </body>
+
 </html>
